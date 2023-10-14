@@ -40,7 +40,7 @@ footer a {
   float: right;
 }
 
-@media (max-height: 300px) {
+@media (max-height: 400px) {
   header {
     display: none;
   }
@@ -50,4 +50,17 @@ footer a {
   main {
     flex: 1 100vh;
   }
+}
+
+img{
+  width: 300px;
+  }
+
+#playBallImage {
+  width: 300px;
+}
+
+#connect4boardhere{
+  width: 450px;
+
 }
