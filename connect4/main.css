@@ -62,7 +62,8 @@ img{
 
 #connect4boardhere{
   width: 450px;
-
+  display: block;
+  margin: 0 auto;
 }
 
 #connect4imageHere{
