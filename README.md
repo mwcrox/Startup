@@ -12,3 +12,5 @@ Database data: I will keep track of how many moves someone survives against the 
 WebSocket data: I would like to display a random meme that would be something similar to "Play ball". I will have one picture for the mean time until will get to this part.  
 
 ![My connect four board with the computer telling you the best move](https://github.com/mwcrox/Startup/blob/main/Snip.png)
+
+Made the AI and put the github link at the bottom right. 
