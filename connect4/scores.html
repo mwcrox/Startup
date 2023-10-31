@@ -36,38 +36,20 @@
         </menu>
       </nav>
     </header>
-    <main>
-        <table>
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>Name</th>
-              <th>Moves</th>
-              <th>Date</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>Michael</td>
-              <td>17</td>
-              <td>September 20, 2023</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Tori</td>
-              <td>16</td>
-              <td>September 20, 2023</td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>Sarah</td>
-              <td>10</td>
-              <td>September 20, 2023</td>
-            </tr>
-          </tbody>
-        </table>
-      </main>
+    <main class="container-fluid bg-secondary text-center">
+      <table class="table table-warning table-striped-columns">
+        <thead class="table-dark">
+          <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Wins</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody id="scores"></tbody>
+      </table>
+    </main>
+    <script src="scores.js"></script>
   
       <footer>
         <hr />
