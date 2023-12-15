@@ -133,3 +133,15 @@ function displayWinner(r, c) {
     }
     gameOver = true;
 }
+
+function getPlayerName() {
+    return localStorage.getItem('userName') ?? 'Mystery player';
+  }
+  function getRandomNumber(){
+    return Math.random;
+  }
+  function getDate(){
+    return new Date().toLocaleDateString();
+  }
+
+  
